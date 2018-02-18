@@ -21,7 +21,7 @@
 				<section class="sidebar col col-lg-4">
           <?php include "_/components/php/aside-register_newsletter.php"; ?>
           <?php include "_/components/php/aside-weekly_favorites.php"; ?>
-          <?php include "_/components/php/aside-accordion.php"; ?>
+          <?php include "_/components/php/aside-accordion_reviews.php"; ?>
 				</section><!-- sidebar -->
 			</div><!-- content -->
     <?php include "_/components/php/footer.php"; ?>
