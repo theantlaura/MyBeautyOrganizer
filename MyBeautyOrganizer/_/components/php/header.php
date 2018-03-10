@@ -1,7 +1,36 @@
 <header class="clearfix" style="focus: background-color: none;">
 	<section id="branding" >
-		<a href="index.php"><img src="images/misc/prelogo.png" style = width:150px;height:100px;alt="Logo for My Beauty Organizer"></a>
-	</section><!-- branding -->
+		<a href="index.php"><img src="images/misc/prelogo.png" style = width:150px;height:100px;alt="Logo for My Beauty Organizer"></a> 
+		         <meta name="viewport" content="width=device-width, initial-scale=10">
+                  <div style="text-align: right;">
+                  <style> 
+                  input[type=text] { 
+                  width: 130px;
+                  box-sizing: border-box;
+                  border: 2px solid #ccc;
+                  border-radius: 4px;
+                  font-size: 16px;
+                  background-color: white;
+                  background-position: 10px 10px; 
+                  background-repeat: no-repeat;
+                  padding: 2px 2px 2px 4px;
+                  -webkit-transition: width 0.4s ease-in-out;
+                  transition: width 0.4s ease-in-out;
+              }
+
+              input[type=text]:focus {
+                  width: 100%;
+              }
+              </style>
+              </div>
+             <body>
+               <div class="search-container">    
+   				  <form action="/action_page.php">
+    		        <input type="text" placeholder="Search.." name="search">
+     			     <button type="submit">Submit</button>
+  			      </form>
+  				</div>
+    </section><!-- branding -->
 
 	<section class="navbar">  <!--style=" background-color: #ffced6"-->
 		<ul class="nav navbar-nav"> <!--style="focus: background-color: none !important;"-->
@@ -40,7 +69,7 @@
 				  <li><a tabindex="-1" href="brands.php#Nars">Nars</a></li>
 				</ul><!-- dropdown menu -->
 			</li>
-			
+
 		</ul><!-- nav -->
 	</section><!-- navbar -->
 
