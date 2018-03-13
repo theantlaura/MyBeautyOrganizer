@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+<link rel="icon" 
+      type="image/png" 
+      href="http://mybeautyorganizer.altervista.org/MyBeautyOrganizer/_/components/php/favicon.ico">
     <title>My Beauty Organizer --Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -17,7 +20,7 @@
           <?php include "_/components/php/snippet-carousel.php"; ?>
 				<section class="main col col-lg-8">
           <?php include "_/components/php/article-latest_beauty_news.php"; ?>
-          <?php include "_/components/php/article-latest-MBO_video.php"; ?>
+          <?php include "_/components/php/article-latest_MBO_video.php"; ?>
           <?php include "_/components/php/article-latest_review.php"; ?>
 				</section><!-- main -->
 				<section class="sidebar col col-lg-4">
