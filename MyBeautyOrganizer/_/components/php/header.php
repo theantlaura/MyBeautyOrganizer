@@ -1,57 +1,71 @@
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Cookie" rel="stylesheet">
+
+<style> 
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #FFC0CB;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("images/misc/searchicon.png");
+    background-repeat: no-repeat;
+    position:  relative;
+   
+    
+    
+    
+}
+
+input[type=text]:focus {
+border: 3px solid #FFC0CB;
+    width: 100%;
+}
+
+</style>
+</head>
 <header class="clearfix" style="focus: background-color: none;">
+
 	<section id="branding" >
-		<a href="index.php"><img src="images/misc/prelogo.png" style = width:150px;height:100px;alt="Logo for My Beauty Organizer"></a> 
-             <body>
-               <div class="search-container">    
-   				  <form action="/action_page.php">
-                    <div style="text-align: right;">
-    		        <input type="text" placeholder="Search.." name="search">
-     			     <button type="submit"> Go </button>
-                     </div>
-                  </form>
-  				</div>
-                
+		<h1 style="margin-top: 1px;
+	margin-bottom: 1px;
+	font-family: 'Cookie', cursive;
+	font-family: 'Alex Brush', cursive;
+	font-size: 4em;
+	color:#ec93b0;
+	text-shadow: 3px 2px black;
+	margin-left: 180px;">My Beauty Organizer</h1>
+     
+  				
+			     
     </section><!-- branding -->
 
-	<section class="navbar">  <!--style=" background-color: #ffced6"-->
-		<ul class="nav navbar-nav"> <!--style="focus: background-color: none !important;"-->
+	<section class="navbar">  
+		<ul class="nav navbar-nav"> 
 			<li><a href="index.php">Home</a></li>
 			<li><a href="steals_n_deals.php">StealsnDeals</a></li>
 			<li><a href="whats_new.php">What's New</a></li>
 			<li><a href="swatches.php">Swatches</a></li>
 			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">MBO Pedia <span class="caret"></span></a>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-					<li><a tabindex="-1" href="steals_n_deals.php">Current Steals n Deals</a></li>
+					<li><a tabindex="-1" href="latest_videos.php">Community</a></li>
 					<li class="divider"></li>
-				  <li><a tabindex="-1" href="steals_n_deals_stores.php#"></a></li>
-				  <li><a tabindex="-1" href="steals_n_deals_by_brand.php#"></a></li>
-				  <li><a tabindex="-1" href="steals_n_deals_online_only.php#"></a></li>
-				  
+				  <li><a tabindex="-1" href="community.php#MBO_Videos">MBO Videos</a></li>
+				  <li><a tabindex="-1" href="community.php#Share_A_Look">Share A Look</a></li>
+				  <li><a tabindex="-1" href="community.php#Beauty_Advice">Beauty Advice</a></li>
 				</ul><!-- dropdown menu -->
-			<li><a href="community.php">Reviews</a></li>
-			<li><a href="schedule.php">Schedule</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">MBO Pedia <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-					<li><a tabindex="-1" href="MBO_Pedia.php">MBO Pedia</a></li>
-					<li class="divider"></li>
-				  <li><a tabindex="-1" href="brands.php#Anastasia_Beverly_Hills">Anastasia Beverly Hills</a></li>
-				  <li><a tabindex="-1" href="brands.php#Huda_Beauty">Huda Beauty</a></li>
-				  <li><a tabindex="-1" href="brands.php#Dior">Dior</a></li>
-				  <li><a tabindex="-1" href="brands.php#Natasha_Denona">Natasha Denona</a></li>
-				  <li><a tabindex="-1" href="brands.php#Viseart">Viseart</a></li>
-				  <li><a tabindex="-1" href="brands.php#Too_Faced">Too Faced</a></li>
-				  <li><a tabindex="-1" href="brands.php#Kat_Von_D">Kat Von D</a></li>
-				  <li><a tabindex="-1" href="brands.php#Make_Up_For_Ever">Make Up For Ever</a></li>
-				  <li><a tabindex="-1" href="brands.php#Makeup_Geek">Makeup Geek</a></li>
-				  <li><a tabindex="-1" href="brands.php#Tarte">Tarte</a></li>
-				  <li><a tabindex="-1" href="brands.php#It_Cosmetics">It Cosmetics</a></li>
-				  <li><a tabindex="-1" href="brands.php#Nars">Nars</a></li>
-				</ul><!-- dropdown menu -->
-			</li>
-
-		</ul><!-- nav -->
+			<li><a href="reviews.php">Reviews</a></li>
+			<li><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <form class="example" action="action_page.php">
+  			<input type="text" placeholder="Search.." name="search">
+ 			<button type="submit"><i class="fa fa-search"></i></button>
+			</form></li>
+        
+        <!-- nav -->
 	</section><!-- navbar -->
 
 	<!-- Modal -->
@@ -61,3 +75,4 @@
 		</div><!-- modal-body -->
 	</section><!-- modal -->
 </header><!-- header -->
+</html>
