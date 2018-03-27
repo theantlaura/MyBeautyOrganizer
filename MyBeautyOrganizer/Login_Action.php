@@ -17,8 +17,9 @@
     } 
     function My_Connect_DB() { 
     $servername="localhost" ; 
-    $username="lauraarevaloportfolio"; $password="" ; 
-    $dbname="my_lauraarevaloportfolio" ; 
+    $username="mybeautyorganizer"; 
+    $password="" ; 
+    $dbname="my_mybeautyorganizer" ; 
     $conn=mysqli_connect($servername, $username, $password, $dbname); if(!$conn) { 
     die("Connection failed: " . mysqli_connect_error()); 
     } 
@@ -43,12 +44,12 @@
     <?php if(isset($submit)) 
     { 
     $conn=My_Connect_DB(); 
-    $sql="SELECT * FROM Grades WHERE username='"
+    $sql="SELECT * FROM Users WHERE username='"
     . $postUsername . "' AND password='" . md5($postPassword) . "';"; $result=My_SQL_Query($conn, $sql); // If login fails 
     if(mysqli_num_rows($result) <=0 ) 
     { 
     echo "<h3>Username or password does not exist.
-           <a href='http://lauraarevaloportfolio.altervista.org/Login_Project.php'>Try again.</a>
+           <a href='http://mybeautyorganizer.altervista.org/Login.php'>Try again.</a>
             </h3>"; // If login successful 
             } 
             else 
@@ -59,18 +60,17 @@
     $_SESSION[ "name"]=$row[2]; 
     $_SESSION[ "email"]=$row[3];
     $_SESSION[ "picture"]=$row[4]; 
-    $_SESSION[ "grade"]=$row[5]; 
-    $_SESSION[ "date"]=$row[6]; 
-    $_SESSION[ "time"]=$row[7]; 
+    $_SESSION[ "date"]=$row[5]; 
+    
     echo "<div>
-          <h2 >Welcome, " . $row[0] . "!</h2>
+          <h2 >Welcome, " . $row[2] . "!</h2>
           </div>"; 
           echo "<div>
                 <div>
                 <img  src='" . $row[4] . "'>
                 </div>
                 <div>
-                <h4> " . $row[2] . " </h4>
+                <h4> " . $row[0] . " </h4>
                 <p>Freemium Account</p>
                 </div>
            </div>"; 
