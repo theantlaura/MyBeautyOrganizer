@@ -4,8 +4,8 @@
     collab with Boxy Charm is a giant step in the right direction.</p>
 
 	<section class="media">
-		<a class="pull-left" data-toggle="tooltip" title data-original-title=
-        "pur_cosmetics"><img class="img-rounded" src="images/swatches/Pur_Cosmetics_Boxy_Charm_Eyeshadow_Palette_Swatches_My_Beauty_Organizer.jpg" 
+		<a href = "images/swatches/Pur_Cosmetics_Boxy_Charm_Eyeshadow_Palette_Swatches_My_Beauty_Organizer.jpg" target="_blank" class="pull-left" data-toggle="tooltip" title data-original-title=
+        "pur_cosmetics"><img class="img-rounded" src="images/swatches/Pur_Cosmetics_Boxy_Charm_Eyeshadow_Palette_Swatches_My_Beauty_Organizer_Small.jpg" 
         alt="Photo of swatches from the Pur Cosmetics Boxy Charm Eyeshadow Palette by My Beauty Organizer website."></a>
 
 	  <div class="media-body">
@@ -20,8 +20,8 @@
 	</section><!-- media -->
 
 	<section class="media">
-		<a class="pull-left" data-toggle="tooltip" title data-original-title=
-        "pur_cosmetics"><img class="pull-left img-rounded" src="images/swatches/" alt="Photo of swatches 
+		<a href = "images/swatches/Pur_Cosmetics_Pro_X_Etienne_Ortega_Eyeshadow_Palette_Swatches_My_Beauty_Organizer.jpg" target="_blank" class="pull-left" data-toggle="tooltip" title data-original-title=
+        "pur_cosmetics"><img class="pull-left img-rounded" src="images/swatches/Pur_Cosmetics_Pro_X_Etienne_Ortega_Eyeshadow_Palette_Swatches_My_Beauty_Organizer_Small.jpg" alt="Photo of swatches 
         from the Pur Cosmetics Pro X Etienne Ortega Eyeshadow Palette by My Beauty Organizer website."></a>
 	  
       <div class="media-body">
