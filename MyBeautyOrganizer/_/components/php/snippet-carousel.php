@@ -18,4 +18,4 @@
 
 	<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 	<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div><!-- myCarousel -->
+</div><!-- myCarousel -->

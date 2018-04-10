@@ -1,5 +1,7 @@
 <section class="stealsndealslist">
 	<div id="stealsndealsindex" class="row">
+    	<h1>Steals n' Deals</h1>
+	<p>Steals n' Deals: Makeup, Skincare Products, Makeup Set, Nail Polish</p>
 		
 		<section class="scrollspy clearfix col col-lg-3 hidden-sm">
 			<ul class="nav nav-list affix">
@@ -34,4 +36,4 @@
 		</section><!-- stealsndeals -->
 
 	</div><!-- stealsndealsindex -->
-</section><!-- stealsndealslist -->
+</section><!-- stealsndealslist -->

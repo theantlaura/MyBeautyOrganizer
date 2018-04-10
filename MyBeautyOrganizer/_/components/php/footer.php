@@ -11,7 +11,6 @@
 				<li><a href="policies.php">Policies</a></li>
 				<li><a href="press.php">Press</a></li>
 				<li><a href="facts.php">FAQ</a></li>
-                <li><a href="sitemap.php">Sitemap</a></li>
                 <li><a href="https://www.facebook.com/mybeautyorganizer/" target="_blank"><img src="images/misc/facebook.png" alt="Facebook Link" style="width:36px;height:36px;border:0;"></a></li>
             <li><a href="https://www.instagram.com/mybeautyorganizer/?hl=en" target="_blank"><img src="images/misc/instagram.png" alt="Instagram Link" style="width:36px;height:36px;border:0;"></a></li>
 		<li><a href="https://twitter.com/theantlaura" target="_blank"><img src="images/misc/twitter.png" alt="Twitter Link" style="width:36px;height:36px;border:0;"></a></li>

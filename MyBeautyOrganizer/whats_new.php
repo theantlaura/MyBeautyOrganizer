@@ -4,7 +4,7 @@
   <link rel="icon" 
       type="image/png" 
       href="http://mybeautyorganizer.altervista.org/MyBeautyOrganizer/_/components/php/favicon.ico">
-    <title>My Beauty Organizer -- Steals n Deals</title>
+    <title>My Beauty Organizer -- What's New</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
@@ -16,12 +16,13 @@
       <div class="content row">
           <?php include "_/components/php/header.php"; ?>
         <section class="main col col-lg-8">
-          <?php include "_/components/php/article_whats_new.php"; ?>
+          <?php include "_/components/php/article_whats_new_kkw.php"; ?>
+          <?php include "_/components/php/article_whats_new_smashbox.php"; ?>
         </section><!-- main -->
         <section class="sidebar col col-lg-4">
-          <?php include "_/components/php/aside-register_newsletter.php"; ?>
-          <?php include "_/components/php/aside-latest_reviews.php"; ?>
-          <?php include "_/components/php/aside-accordion.php"; ?>
+          <?php include "_/components/php/aside-register-newsletter.php"; ?>
+          
+          <?php include "_/components/php/aside-accordion_swatches.php"; ?>
         </section><!-- sidebar -->
       </div><!-- content -->
     <?php include "_/components/php/footer.php"; ?>

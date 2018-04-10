@@ -5,19 +5,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" 
+      type="image/png" 
+      href="http://mybeautyorganizer.altervista.org/MyBeautyOrganizer/_/components/php/favicon.ico">
+    <title>My Beauty Organizer -- What's New</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>register user</title>
-    <!-- Favicon and Core CSS files -->
-    <link type="image/png" rel="shortcut icon" href="../images/favicon.png" />
-    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <!-- Embedded styles -->
-    <style type="text/css">
-    	@import url('https://fonts.googleapis.com/css?family=Raleway:900|Montserrat');
-    	
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
+    	<style>
         body {
         	color: #575454;
         	font-family: 'Montserrat', sans-serif;

@@ -1,3 +1,6 @@
+<html>
+<title>Kat Von D Shade + Light Glimmer Palette Youtube Video Review Live Swatches Media</title>
+
 <article>
 	<h2>MBO Reviews the Kat Von D Shade + Light Glimmer Palette</h2>
 	<div class="media-body">
@@ -9,4 +12,4 @@
 		
 	</div>
 </article>
-
+</html>

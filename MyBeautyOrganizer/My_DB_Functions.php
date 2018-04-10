@@ -1,11 +1,11 @@
 <?php
 function My_Connect_DB()
-{
+{ // String variables below 
 $servername = "localhost";
 $username = "mybeautyorganizer";
 $password = "";
 $dbname = "my_mybeautyorganizer";
-
+// below connects to the va
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 if(!$conn)
 die("Connection to DB failed: ".mysqli_connect_error(). "<br/>");

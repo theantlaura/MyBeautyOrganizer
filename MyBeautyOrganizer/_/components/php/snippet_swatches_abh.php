@@ -26,7 +26,7 @@
 		<a href = "images/makeup/Anastasia_Beverly_Hills_Subculture_Eyeshadow_Palette_My_Beauty_Organizer.png" target="_blank" class="pull-left" data-toggle="tooltip" title data-original-title=
         "anastasia_beverly_hills"><img class="img-rounded" src="images/makeup/highend/anastasia_beverly_hills/palettes/Anastasia_Beverly_Hills_Subculture_Eyeshadow_Palette_My_Beauty_Organizer_Small.jpg" 
         alt="Photo of the ABH Subculture Eyeshadow Palette by My Beauty Organizer website."></a>
-        <iframe width="160" height="80" src="https://www.youtube.com/embed/LO18Q94RC2U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <!-- <iframe width="160" height="80" src="https://www.youtube.com/embed/LO18Q94RC2U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
 	  <div class="media-body">
 	  	<h4>Subculture Eyeshadow Palette</h4>
 			<a href = "http://www.anastasiabeverlyhills.com/makeup/palettes-and-sets/">Buy Subculture</a>

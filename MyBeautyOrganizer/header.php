@@ -60,7 +60,7 @@ border: 3px solid #FFC0CB;
 <header class="clearfix" style="focus: background-color: none;">
 
 	<section id="branding" >
-		<h1 style="margin-top: 1px;
+		<h1><a href="http://mybeautyorganizer.altervista.org/MyBeautyOrganizer/index.php" style="margin-top: 1px;
         margin-bottom: 1px;
 	margin-bottom: 1px;
 	font-family: 'Cookie', cursive;
@@ -68,20 +68,9 @@ border: 3px solid #FFC0CB;
 	font-size: 4em;
 	color:#f998ca;
 	text-shadow: 3px 2px black;
-	margin-left: 10px;">My Beauty Organizer</h1>
+	margin-left: 10px;">My Beauty Organizer</a><h1>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-              
-             
-              
-			<form class="example" action="SearchResults.php" style="margin:right;max-width:300px">
-		  	<input type="text" placeholder="Search.." name="search2">
-  			<button type="submit"><i class="fa fa-search"></i></button>
-			</form>
-
-              
-              
-     
-  				
+      			
 			     
     </section><!-- branding -->
 
@@ -94,15 +83,29 @@ border: 3px solid #FFC0CB;
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">COMMUNITY <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-					<li><a tabindex="-1" href="community.php">COMMUNITY</a></li>
-					
-				  <li><a tabindex="-1" href="community.php#MBO_Videos">MBO VIDEOS</a></li>
-				  <li><a tabindex="-1" href="community.php#Share_A_Look">SHARE A LOOK</a></li>
-				  <li><a tabindex="-1" href="community.php#Beauty_Advice">BEAUTY ADVICE</a></li>
+					<li><a tabindex="-1" href="community.php#MBO_Reviews">REVIEWS</a></li>
+					<li><a tabindex="-1" href="community.php#MBO_Videos">MBO VIDEOS</a></li>
+				  	<li><a tabindex="-1" href="community.php#Share_A_Look">SHARE A LOOK</a></li>
+				  	<li><a tabindex="-1" href="community.php#Beauty_Advice">BEAUTY ADVICE</a></li>
+                    
 				</ul><!-- dropdown menu -->
-			<li><a href="reviews.php">REVIEWS</a></li>
 			
-              
+			<li><script>
+  (function() {
+    var cx = '004966597396845221278:56jkzwceztm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search><!--<form class="example" action="SearchResults.php" style="margin:left;max-width:250px;">
+		  	<input type="text" placeholder="Search.." name="search">
+  			<button type="submit"><i class="fa fa-search"></i></button>
+			</form></li>
+              -->
         
         <!-- nav -->
 	</section><!-- navbar -->
