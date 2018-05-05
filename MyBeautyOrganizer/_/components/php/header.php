@@ -82,15 +82,24 @@ border: 3px solid #FFC0CB;
 			<li><a href="whats_new.php">WHAT'S NEW</a></li>
 			<li><a href="swatches.php">SWATCHES</a></li>
 			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">COMMUNITY <span class="caret"></span></a>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">REVIEWS <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-					<li><a tabindex="-1" href="community.php#MBO_Reviews">REVIEWS</a></li>
-					<li><a tabindex="-1" href="community.php#MBO_Videos">MBO VIDEOS</a></li>
-				  	<li><a tabindex="-1" href="community.php#Share_A_Look">SHARE A LOOK</a></li>
-				  	<li><a tabindex="-1" href="community.php#Beauty_Advice">BEAUTY ADVICE</a></li>
-                    
+					<li><a tabindex="-1" href="reviews.php">ALL REVIEWS</a></li>
+					<li class="divider"></li>
+				  <li><a tabindex="-1" href="reviews.php#Urban_Decay">Urban Decay</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Too_Faced">Too Faced</a></li>
+				  <li><a tabindex="-1" href="reviews.php#MAC">MAC</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Juvias_Place">Juvia's Place</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Morphe">Morphe</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Makeup_Geek">Makeup Geek</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Nabla_Cosmetics">Nabla Cosmetics</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Smashbox">Smashbox</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Dior">Dior</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Becca">Becca</a></li>
+				  <li><a tabindex="-1" href="reviews.php#Cover_FX">Cover FX</a></li>
+				 
 				</ul><!-- dropdown menu -->
-			<!-- Searchbar -->
+			</li>
 			<li> <form>
         <a class="btn btn-primary" href="Login.php" style="	background: pink;
             background-color:#ffced6

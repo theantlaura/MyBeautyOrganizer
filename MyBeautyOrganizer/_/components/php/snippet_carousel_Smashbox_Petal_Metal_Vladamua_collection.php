@@ -19,7 +19,7 @@
 	</ol><!-- carousel-indicators -->
     
     	<section class="carousel-inner">
-		<div class="item"><img src="images/makeup/highend/smashbox/collections/Smashbox_My_Beauty_Organizer_Always-Petal-Metal-Matte-Liquid-Lipstick-Desert-Rose.png" 
+		<div class="active item"><img src="images/makeup/highend/smashbox/collections/Smashbox_My_Beauty_Organizer_Always-Petal-Metal-Matte-Liquid-Lipstick-Desert-Rose.png" 
         alt="Photo of Smashbox Petal Metal Collection New Makeup for Spring 2018"></div>
         <div class="item"><img src="images/makeup/highend/smashbox/collections/Smashbox_My_Beauty_Organizer_Always-Petal-Metal-Matte-Liquid-Lipstick-XO-Vlada.png" 
         alt="Photo of Smashbox Petal Metal Collection New Makeup for Spring 2018"></div>
