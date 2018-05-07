@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel hidden-sm slide">
+<div id="myCarousel" class="carousel hidden-sm slide" style = "position-top: 2px;">
 
 	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>

@@ -9,7 +9,7 @@
 
 		<div class="accordion-heading">
 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#swatches" href="#swatches_1">
-			<span class="glyphicon glyphicon-calendar"></span> Natasha Denona</a>
+			<span class="glyphicon glyphicon-heart"></span> Natasha Denona</a>
 		</div><!-- accordion heading -->
 
 		<div id="swatches_1" class="accordion-body collapse">
@@ -30,7 +30,7 @@
 
 		<div class="accordion-heading">
 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#swatches" href="#swatches_2">
-			<span class="glyphicon glyphicon-calendar"></span> Anastasia Beverly Hills</a>
+			<span class="glyphicon glyphicon-heart"></span> Anastasia Beverly Hills</a>
 		</div><!-- accordion heading -->
 
 		<div id="swatches_2" class="accordion-body collapse">
@@ -48,7 +48,7 @@
 
 		<div class="accordion-heading">
 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#schedule" href="#swatches_3">
-			<span class="glyphicon glyphicon-calendar"></span> Pur Cosmetics</a>
+			<span class="glyphicon glyphicon-heart"></span> Pur Cosmetics</a>
 		</div><!-- accordion heading -->
 
 		<div id="swatches_3" class="accordion-body collapse">
@@ -67,7 +67,7 @@
 
 		<div class="accordion-heading">
 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#swatches" href="#swatches_4">
-			<span class="glyphicon glyphicon-calendar"></span> Violet Voss</a>
+			<span class="glyphicon glyphicon-heart"></span> Violet Voss</a>
 		</div><!-- accordion heading -->
 
 		<div id="swatches_4" class="accordion-body collapse">
